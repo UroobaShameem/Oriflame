@@ -1,0 +1,87 @@
+.about
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.first
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first img
+{
+    width: 50%;
+    height: 70%;
+}
+
+.second
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+h1
+{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+.team
+{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:hover
+{
+    box-shadow: 0 0 15px #893213;
+}
+.team-img
+{
+    width: 250px;
+    height: 200px;
+}
+.team-img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.team-name
+{
+    width: 100%;
+    height: 40px;
+}
+.team-name h2
+{
+    font-size: 24px;
+    text-align: center;
+}
+.team-name p
+{
+    font-size: 20px;
+    text-align: center;
+}

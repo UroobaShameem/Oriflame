@@ -1,0 +1,153 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fdd9ce;
+    color: #893213;
+    font-family: 'Acme', sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.logo
+{
+    width: 20%;
+    height: 100%;
+}
+.logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #893213;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #893213;
+}
+
+a:visited
+{
+    color: #893213;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    font-size: 25px;
+}
+
+.search
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input, button
+{
+    border: 1px solid #893213;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-first
+{
+    width: 100%;
+    height: 50px;
+    background-color: #893213;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.connect p{
+    color: #fdd9ce;
+    font-size: 20px;
+}
+.social
+{
+    display: flex;
+}
+.social-item
+{
+    margin: 10px;
+}
+.social-item img
+{  width: 30px;
+    height: 30px;
+}
+.footer-second
+{   
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-second h2
+{   
+    text-decoration: underline;
+    text-align: center;
+}
+.footer-detail
+{
+    width: 300px;
+    height: 100%;
+    text-align: center;
+}   
+.footer-detail p
+{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.footer-products, .footer-links, .footer-contact
+{
+    width: 300px;
+    height: 100%;
+
+}
+
+ul
+{
+    font-size: 19px;
+    padding-left: 110px;
+    list-style-type: none;
+}
+
+.contact-item
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+.contact-item img
+{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
