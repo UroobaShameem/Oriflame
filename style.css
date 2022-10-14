@@ -2,16 +2,16 @@ body
 {
     margin: 0px;
     padding: 0px;
-    background-color: #fdd9ce;
-    color: #893213;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Tajawal', sans-serif;;
+    background-color: 	#F0F0F0;
 }
 
 .header
 {
     width: 100%;
-    height: 200px;
+    height: 180px;
     display: flex;
+    background-color: 	#E0E0E0;
 }
 
 .logo
@@ -28,18 +28,21 @@ body
 a
 {
     text-decoration: none;
-    color: #893213;
+    color: black;
 }
 
 a:hover
 {
-    text-decoration: underline;
-    text-decoration-color: #893213;
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    box-shadow: 0px 15px 10px -15px #111;
 }
 
 a:visited
 {
-    color: #893213;
+    color: black;
 }
 
 .navbar
@@ -61,7 +64,7 @@ a:visited
 }
 .search input, button
 {
-    border: 1px solid #893213;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
     font-size: 18px;
@@ -78,14 +81,14 @@ a:visited
 {
     width: 100%;
     height: 50px;
-    background-color: #893213;
+    background-color: #909090;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .connect p{
-    color: #fdd9ce;
     font-size: 20px;
+    color: white;
 }
 .social
 {
@@ -108,7 +111,7 @@ a:visited
 }
 .footer-second h2
 {   
-    text-decoration: underline;
+    font-weight: 800;
     text-align: center;
 }
 .footer-detail
