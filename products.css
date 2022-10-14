@@ -1,21 +1,18 @@
 h1{
-    font-size: 40px;
+    font-size: 44px;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #893213;
 }
 
 h4{
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #893213;
+    text-decoration: double underline;
 }
 .name
 {
     font-size: 30px;
-    background-color: #893213;
-    color: #fdd9ce;
+    background-color: #909090;
+    color: white;
     text-align: center;
     padding: 10px;
 }
