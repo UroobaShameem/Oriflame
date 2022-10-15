@@ -7,24 +7,26 @@
     align-items: center;
 }
 
-.location
+.locate
 {
-    width: 30%;
-    height: auto;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-
+.map
+{
+    width: 90%;
+}
 
 .contact
 {
-    height: auto;
-    width: 55%;
-    margin-right: 20px;
-    
+    display: flex;
+    justify-content: center;
 }
 
-.contact h1 , .location h1
+.contact h1, .locate h1
 {
     font-size: 40px;
     text-align: center;
@@ -32,48 +34,25 @@
 
 .contact p
 {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
 .form
 {
-    width: 100%;
-    height: auto;
+    width: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-input, select, textarea
+.form input, .form select
 {
-    width: 330px;
+    width: 300px;
     height: 30px;
-    margin: 10px;
     border: 1px solid #000;
     border-radius: 5px;
+    margin: 10px;
     padding: 10px;
-}
-
-select
-{
-    width: 350px;
-    height: 50px;
-}
-
-textarea
-{
-    width: 700px;
-    height: 100px;
-}
-
-button{
-    width: 100px;
-    height: 40px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    background-color: #E0E0E0;
-    font-size: 20px;
-    margin: 10px;
-    float: right;
 }
