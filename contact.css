@@ -4,14 +4,12 @@
     height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .locate
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -40,19 +38,52 @@
 
 .form
 {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.form input, .form select
+.form input, .form select, .form textarea
 {
     width: 300px;
-    height: 30px;
-    border: 1px solid #000;
-    border-radius: 5px;
+    height: 25px;
+    border: 0;
+    border-bottom: 2px solid black;
     margin: 10px;
     padding: 10px;
+    background-color:	#F0F0F0;
+    font-size: 18px;
+}
+
+.form textarea
+{
+    width: 650px;
+    height: 80px;
+}
+
+.form select
+{
+    height: 45px;
+    width: 350px;
+}
+
+.form button
+{
+    width: 90px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #E0E0E0;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover
+{
+    box-shadow: 0px 0px 10px 0px #91b9ad ;
+    font-weight: bold;
 }
