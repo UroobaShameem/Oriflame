@@ -1,11 +1,30 @@
+.main
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location
+{
+    width: 30%;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+
 .contact
 {
     height: auto;
-    width: 70%;
-    margin: auto;
+    width: 55%;
+    margin-right: 20px;
+    
 }
 
-.contact h1
+.contact h1 , .location h1
 {
     font-size: 40px;
     text-align: center;
@@ -26,12 +45,19 @@
     align-items: center;
 }
 
-input
+input, select, textarea
 {
-    width: 400px;
+    width: 330px;
     height: 30px;
     margin: 10px;
     border: 1px solid #000;
     border-radius: 5px;
     padding: 10px;
 }
+
+select
+{
+    width: 350px;
+    height: 50px;
+}
+
